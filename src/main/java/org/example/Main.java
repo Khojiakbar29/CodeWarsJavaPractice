@@ -10,6 +10,13 @@ public class Main {
         int seconds = 4526;
         String result = HumanReadableTime.makeReadable(seconds);
         System.out.println(result);
+        //Third Task
+        int red = 148;
+        int green = 0;
+        int blue = 211;
+        String hex = RgbToHex.rgb(red, green, blue);
+        System.out.println(hex);
+
     }
 }
 
