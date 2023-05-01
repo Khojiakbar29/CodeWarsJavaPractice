@@ -1,6 +1,6 @@
 package org.example;
 
-public class HumanReadableTime {
+public class HumanReadableTime7K {
     public static String makeReadable(int seconds) {
         if (seconds < 0 || seconds > 359999) {
             throw new IllegalArgumentException("Invalid number of seconds");

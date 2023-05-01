@@ -44,11 +44,18 @@ public class Main {
 //        some.add("World");
 //        List<Object> result = ListFiltering7K.filterList(some);
 //        System.out.println(result);
-        //JadenCase7K
-        String some = "";
-        String result = JadenCase7K.toJadenCase(some);
+//        //JadenCase7K
+//        String some = "";
+//        String result = JadenCase7K.toJadenCase(some);
+//        System.out.println(result);
+//        //ShortestWord7K
+//        String some = "turns out random test cases are easier than writing out basic ones";
+//        int result = ShortesWord7K.findShort(some);
+//        System.out.println(result);
+        //CreditCardMask7K
+        String some = "12312312312";
+        String result = CreditCardMask7K.maskify(some);
         System.out.println(result);
-
     }
 }
 

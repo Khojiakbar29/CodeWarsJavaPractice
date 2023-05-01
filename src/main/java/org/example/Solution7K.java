@@ -1,6 +1,6 @@
 package org.example;
 
-public class Solution {
+public class Solution7K {
     public static int solution(int number) {
        if (number < 0) {
            return 0;

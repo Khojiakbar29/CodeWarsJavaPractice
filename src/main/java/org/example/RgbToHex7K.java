@@ -1,6 +1,6 @@
 package org.example;
 
-public class RgbToHex {
+public class RgbToHex7K {
     public static String rgb(int r, int g, int b) {
         r = Math.max(0, Math.min(255, r));
         g = Math.max(0, Math.min(255, g));
